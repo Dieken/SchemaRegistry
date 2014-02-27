@@ -1,0 +1,35 @@
+{
+    "protobuf-example-addressbook" : {
+        "url"           : "http://protobuf.googlecode.com/svn-history/r2/trunk/examples/addressbook.proto",
+        "filename"      : "addressbook.proto",
+        "type"          : "protobuf",
+        "sha1sum"       : "d0a84db3435bf20aee0279e10ce6f932995e5a45",
+        "description"   : "Protobuf example schema at https://developers.google.com/protocol-buffers/docs/overview"
+    },
+
+    "avro-example-user" : {
+        "url"           : "http://svn.apache.org/viewvc/avro/site/publish/docs/1.7.5/examples/user.avsc?revision=1515549&view=co",
+        "filename"      : "user.avsc",
+        "type"          : "avro",
+        "sha1sum"       : "025c8cf8bfe8cf4842140c60be1cabf322d15f8f",
+        "description"   : "Avro example schema at http://avro.apache.org/docs/current/gettingstartedjava.html"
+    },
+
+    "thrift-tutorial-shared" : {
+        "url"           : "https://git-wip-us.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=tutorial/shared.thrift;h=db4b69443be1b41770632f17caba80ba47028084;hb=HEAD",
+        "filename"      : "shared.thrift",
+        "type"          : "thrift",
+        "sha1sum"       : "a64c47ea889019ac4cfba05d4a8af78f8339f4a6",
+        "description"   : "Thrift example schema at http://thrift.apache.org/"
+    },
+
+    "thrift-tutorial-tutorial" : {
+        "url"           : "https://git-wip-us.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=tutorial/tutorial.thrift;h=3150151deceb87e22123c9a321d9cd000dcfce5b;hb=HEAD",
+        "filename"      : "tutorial.thrift",
+        "type"          : "thrift",
+        "sha1sum"       : "86c3820a3166746cef132c3b793cdc14f2c4d6bc",
+        "depends"       : [ "thrift-tutorial-shared" ],
+        "description"   : "Thrift example schema at http://thrift.apache.org/"
+    }
+}
+
